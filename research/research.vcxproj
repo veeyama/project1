@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BLE.cpp" />
+    <ClCompile Include="..\BLESTATUS.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\STATUS.cpp" />
+    <ClCompile Include="..\TERMINAL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BLE.h" />
+    <ClInclude Include="..\BLESTATUS.h" />
+    <ClInclude Include="..\STATUS.h" />
+    <ClInclude Include="..\TERMINAL.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B138CC01-26DC-4C89-958C-250ADF284DBB}</ProjectGuid>
     <RootNamespace>research</RootNamespace>
@@ -117,19 +130,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\kenkyu\BLE.h" />
-    <ClInclude Include="..\..\kenkyu\BLESTATUS.h" />
-    <ClInclude Include="..\..\kenkyu\STATUS.h" />
-    <ClInclude Include="..\..\kenkyu\TERMINAL.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\kenkyu\BLE.cpp" />
-    <ClCompile Include="..\..\kenkyu\BLESTATUS.cpp" />
-    <ClCompile Include="..\..\kenkyu\main.cpp" />
-    <ClCompile Include="..\..\kenkyu\STATUS.cpp" />
-    <ClCompile Include="..\..\kenkyu\TERMINAL.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
